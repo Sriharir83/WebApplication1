@@ -1,0 +1,60 @@
+<div class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img width="116" height="22" src="/assets/logo-9a0c71ef3e238cad3e4ee8196e4b11f0d83c43435bb81602f6932bed992812ed.svg" /></a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-main">
+      <ul class="nav navbar-nav navbar-left">
+        <li class=' '>
+          <form class="navbar-form search_form" action="/search" accept-charset="UTF-8" method="get">
+            <div class="input-group input-group">
+              <input type="text" name="q" id="q" value="" placeholder="Search Packages" class="form-control search-input" size="40" />
+
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <div class="navbar-btn btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Login <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/login?host_type=github&amp;return_to=https%3A%2F%2Flibraries.io%2Fgithub%2FBlackrockDigital%2Fstartbootstrap">
+                  <i class="fa fa-github"></i> GitHub
+                </a>
+              </li>
+              <li>
+                <a href="/login?host_type=gitlab&amp;return_to=https%3A%2F%2Flibraries.io%2Fgithub%2FBlackrockDigital%2Fstartbootstrap">
+                  <i class="fa fa-gitlab"></i> GitLab
+                </a>
+              </li>
+              <li>
+                <a href="/login?host_type=bitbucket&amp;return_to=https%3A%2F%2Flibraries.io%2Fgithub%2FBlackrockDigital%2Fstartbootstrap">
+                  <i class="fa fa-bitbucket"></i> Bitbucket
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li class="dropdown-header terms">
+                By logging in you accept <br>our <a href='/terms'>terms of service</a> <br>and <a href='/privacy'>privacy policy</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
